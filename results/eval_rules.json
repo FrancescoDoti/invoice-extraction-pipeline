@@ -1,0 +1,100 @@
+{
+  "held_out/digital": {
+    "docs": 56,
+    "field_accuracy": {
+      "invoice_number": 0.0,
+      "invoice_date": 0.0,
+      "due_date": 0.0,
+      "vendor_name": 0.0,
+      "currency": 1.0,
+      "subtotal": 0.0,
+      "discount": 0.7678571428571429,
+      "tax": 0.0,
+      "total": 0.0
+    },
+    "line_items_exact": 0.0,
+    "documents_fully_correct": 0.0,
+    "straight_through_rate": 0.0,
+    "auto_approved_precision": null,
+    "auto_approved_but_wrong": 0,
+    "vendor_arithmetic_errors": 3,
+    "vendor_errors_auto_approved": 0
+  },
+  "held_out/scanned": {
+    "docs": 44,
+    "field_accuracy": {
+      "invoice_number": 0.0,
+      "invoice_date": 0.0,
+      "due_date": 0.0,
+      "vendor_name": 0.0,
+      "currency": 1.0,
+      "subtotal": 0.0,
+      "discount": 0.8181818181818182,
+      "tax": 0.0,
+      "total": 0.0
+    },
+    "line_items_exact": 0.0,
+    "documents_fully_correct": 0.0,
+    "straight_through_rate": 0.0,
+    "auto_approved_precision": null,
+    "auto_approved_but_wrong": 0,
+    "vendor_arithmetic_errors": 4,
+    "vendor_errors_auto_approved": 0
+  },
+  "seen/digital": {
+    "docs": 175,
+    "field_accuracy": {
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "due_date": 1.0,
+      "vendor_name": 1.0,
+      "currency": 1.0,
+      "subtotal": 1.0,
+      "discount": 1.0,
+      "tax": 1.0,
+      "total": 1.0
+    },
+    "line_items_exact": 1.0,
+    "documents_fully_correct": 1.0,
+    "straight_through_rate": 0.9142857142857143,
+    "auto_approved_precision": 1.0,
+    "auto_approved_but_wrong": 0,
+    "vendor_arithmetic_errors": 15,
+    "vendor_errors_auto_approved": 0
+  },
+  "seen/scanned": {
+    "docs": 125,
+    "field_accuracy": {
+      "invoice_number": 1.0,
+      "invoice_date": 0.976,
+      "due_date": 0.976,
+      "vendor_name": 1.0,
+      "currency": 1.0,
+      "subtotal": 0.96,
+      "discount": 1.0,
+      "tax": 0.976,
+      "total": 0.992
+    },
+    "line_items_exact": 0.6,
+    "documents_fully_correct": 0.544,
+    "straight_through_rate": 0.488,
+    "auto_approved_precision": 0.9672131147540983,
+    "auto_approved_but_wrong": 2,
+    "vendor_arithmetic_errors": 15,
+    "vendor_errors_auto_approved": 0
+  },
+  "review_reasons": {
+    "no line items": 117,
+    "missing subtotal": 105,
+    "missing invoice_date": 103,
+    "missing tax": 103,
+    "missing invoice_number": 100,
+    "missing total": 100,
+    "subtotal - discount + tax != total": 29,
+    "line items do not sum to subtotal": 26,
+    "line 3": 3,
+    "line 1": 2,
+    "line 2": 1
+  },
+  "llm_fallback": false
+}
